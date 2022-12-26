@@ -9,10 +9,10 @@ namespace Lab4Geometric.Classes {
     {
         public int Height { get; set; }
         public int SideLenght { get; set; }
-        public override string Perimeter() {
+        public override string GetPerimeter() {
             return String.Format($"Triangle perimeter: {3 * SideLenght}");
         }
-        public override string Square() {
+        public override string GetSquare() {
             return String.Format($"Triangle square: {0.5 * Height * SideLenght}");
         }
     }

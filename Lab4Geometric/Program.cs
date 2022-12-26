@@ -11,7 +11,7 @@ shapeList.Add(new Circle() { Radius = 3 });
 
 foreach (var sh in shapeList)
 {
-    Console.WriteLine(sh.Perimeter());
-    Console.WriteLine(sh.Square());
+    Console.WriteLine(sh.GetPerimeter());
+    Console.WriteLine(sh.GetSquare());
     Console.WriteLine();
 }
